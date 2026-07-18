@@ -29,7 +29,7 @@ jobs:
           # 3. 复制示例文件
           cp -R exampleSite/* .
           # 4. 执行编译，并将 baseURL 改为你自己的 GitHub Pages 地址
-          hugo --themesDir ../ --baseURL https://adolfshhz1.github.io/chizf-WebStack-Hugo/
+          hugo --themesDir ../ --baseURL https://github.com/l6l9527/chizf-WebStack-Hugo/
           
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3   # 一个自动发布 github pages 的 action
